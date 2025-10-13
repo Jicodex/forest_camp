@@ -575,16 +575,16 @@ IG: @scapeforestcamp`,
     footer_copy: "2025 © ForestCamp - Todos los derechos reservados.",
   },
 };
-
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("langToggleBtn");
-  if (!btn) return;
+  const flag = document.getElementById("langFlag"); // ✅ image tag select
+  if (!btn || !flag) return;
 
   // Load saved lang or default
   let lang = localStorage.getItem("lang") || "en";
 
   function applyLanguage() {
-    // Update all data-i18n elements
+    // ✅ Update all data-i18n elements
     document.querySelectorAll("[data-i18n]").forEach(el => {
       const key = el.dataset.i18n;
       if (translations[lang] && translations[lang][key]) {
@@ -592,10 +592,16 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
-    // Update button text
-    btn.innerText = lang === "en" ? "🇩🇴ES" : "🇺🇸EN";
+    // ✅ Update flag image instead of emoji text
+    if (lang === "en") {
+      flag.src = "assets/images/esflag.png"; // Spanish flag shown when English active
+      flag.alt = "ES";
+    } else {
+      flag.src = "assets/images/usflag.png"; // English flag shown when Spanish active
+      flag.alt = "EN";
+    }
 
-    // Update page title
+    // ✅ Update page title
     const bodyPage = document.body.dataset.page || "home";
     const titleKey = `page_title_${bodyPage}`;
     if (translations[lang] && translations[lang][titleKey]) {
@@ -603,10 +609,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Apply language on load
+  // ✅ Apply language on load
   applyLanguage();
 
-  // Toggle button click
+  // ✅ Toggle button click
   btn.addEventListener("click", () => {
     lang = lang === "en" ? "es" : "en";
     localStorage.setItem("lang", lang);

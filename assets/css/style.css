@@ -949,22 +949,37 @@ a{
     border-radius: 25px;
     padding: 30px 40px;
 }
-.included_icon{
-    text-align: center;
+.included_icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	text-align: center;
+	height: 160px;
+	position: relative;
+	margin-bottom: 10px;
 }
-.included_icon img {
-	height: 65px;
-	margin-top: 50px;
-	margin-bottom: 20px;
+
+.included_icon img {             /* fixed image size (adjust if needed) */
+  object-fit: contain;
+  margin-bottom: 20px;          /* spacing between image and text */
 }
+
 .included_icon p {
 	text-align: center !important;
 	font-size: 16px !important;
 	color: #ffffff;
 	font-family: 'emone_bold';
-	padding-right: 0px !important;
-	padding-left: 0px !important;
+	margin: 0;
+	padding: 0 !important;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	margin-bottom: 30px !important;
 }
+
 .dirth_day h4{
     margin-top: 31px;
     font: 46px 'save_lemon';
