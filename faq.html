@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Forest Camp</title>
+    <!-- ========== All Css Link Here ===== -->
+     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+     <link rel="stylesheet" href="assets/css/slick.css">
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <!-- ========== For Responsive Css  -->
+     <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body data-page="faq">
+    <!-- ========== Header Area Start Here ==========  -->
+
+<style>
+                :root {
+            --primary-text: #1B3A3A;
+            --secondary-text: #058C9F;
+            --white-text-white: transparent;
+            --black-text-black: #000000;
+            }
+
+            body{
+                background-color: rgb(209, 184, 133);
+                background-color: rgba(209, 184, 133, 0.7);
+                background-image: url(assets/images/faq/bg.png);
+            }
+            .accordion-item {
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.125);
+        }
+        .accordion-button {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 1rem 1.25rem;
+            font-size: 1rem;
+            color: var(--primary-text);
+            text-align: left;
+            background-color: transparent;
+            border: 0;
+            border-radius: 0;
+            overflow-anchor: none;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+        }
+                a {
+            text-decoration: none;
+            }
+            .accordion-body ul li a {
+            color: black;
+            font-weight: 700;
+            }
+            .faq-section .accordion {
+            width: 100%;
+            }
+
+            .accordion-button:not(.collapsed) {
+            /* background-color: #c5e5d8;*/
+            background-color: var(--secondary-text);
+            }
+
+            .accordion-button:not(.collapsed)::after {
+            background-image: none;
+            transform: none;
+            }
+
+            .accordion-button:focus {
+            box-shadow: none;
+            }
+
+            .accordion-button:before {
+            content: "";
+            position: absolute;
+            /*   right: 0.75rem; */
+            right: 0.75rem;
+            top: 1.25rem;
+            height: 2px;
+            width: 1rem;
+            background-color: var(--primary-text);
+            }
+            .accordion-button.collapsed:after {
+            content: "";
+            position: absolute;
+            /*   right: 1.1875rem; */
+            right: 1.1875rem;
+            top: 0.8125rem;
+            height: 1.0625rem;
+            width: 0.125rem;
+            border-style: none;
+            background-color: var(--primary-text);
+            }
+
+            .faq-section .accordion-button h5 {
+            /*   color: #7dbc9e; */
+            color: var(--primary-text);
+            margin-right: 13px;
+            }
+            .accordion-body {
+            background-color: transparent;
+            }
+            /* button:focus:not(:focus-visible) {
+                outline: 0;
+            } */
+
+            /* list */
+            ul {
+            list-style-type: none;
+            list-style-type: disc; /* Default bullet points for ul */
+            margin-left: 20px;
+            }
+            ul li {
+            margin-bottom: 5px;
+            }
+            .accordion-body ol {
+            counter-reset: step-counter;
+            list-style-type: none;
+            padding-left: 0;
+            }
+
+            .accordion-body ol > li {
+            counter-increment: step-counter; /* Increment custom counter */
+            margin-bottom: 10px;
+            }
+
+            .accordion-body ol > li::before {
+            content: "Steps " counter(step-counter) ": "; /* Custom prefix */
+            font-weight: bold;
+            }
+
+            @media screen and (min-width: 768px) {
+            /*   .faq-section .accordion {
+                width: 50%;
+                margin: 0 auto;
+            } */
+
+            .accordion-button:before {
+                right: 0.75rem;
+            }
+
+            .accordion-button.collapsed:after {
+                right: 1.1875rem;
+            }
+
+            .faq-section .accordion-button h5 {
+                margin-right: 0px;
+            }
+            
+            }
+            .faq-section .container{
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+            }
+            .faq_h_bg{
+                position: absolute;
+                width: 60%;
+                height: auto;
+                left: 10%;
+                top: -10%;
+                opacity: 0.5;
+            }
+            .side_bg{
+                position: absolute;
+                width: auto;
+                height: 100%;
+                left: 70%;
+                top: 30%;
+            }
+
+</style>
+<header id="about_page">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html#banner_area">
+            <!-- ========== Logo Here  -->
+             <img src="assets/images/logo/logo_blue.png" alt="forest-camp">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/images/icons/bar.png" alt="bar">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"><span data-i18n="nav_home">Home</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html"><span data-i18n="nav_about">Know us</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html"><span data-i18n="nav_gallery">Gallery</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="program.html"><span data-i18n="nav_program">Camps</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="activities.html" data-i18n="nav_activie">Activities</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contact_area"><span data-i18n="nav_contact">Contact</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="faq.html"><span data-i18n="nav_faq">FAQ</span></a>
+              </li>
+              <li class="nav-item">
+                <button id="langToggleBtn" class="nav-link btn btn-sm" style="border:none; background:none;">ES</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+    <!-- ========== Header Area End Here ==========  -->
+    <!-- ========== About Part One Area Start Here ==========  -->
+     <section id="about_part_one" class="position-relative">
+        <img src="assets/images/faq/h_bg.png" alt="icon" class="faq_h_bg">
+        <div class="container-fluid about_page_for_bg">
+            <div class="row about_bottom_fak position-relative">
+                <div class="col-lg-12">
+                    <div class="about_part_one_text text-center position-relative">
+                        
+                        <h3 style="color: #058C9F;" data-i18n="faq_heading">Frequently asked questions</h3>
+                        
+                        <section class="faq-section py-3">
+                            <div class="container">
+                        
+                              <div class="w-lg-50 mx-auto">
+                                
+                                <div class="accordion accordion-flush" id="accordionExample">
+                                  <!-- 1: coll1 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#coll1" aria-expanded="true" aria-controls="coll1">
+                                        <h5 data-i18n="faq_q1_title">What is Forest Camp?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q1_body">
+                                        Forest Camp is an outdoor adventure program for children, designed to foster leadership, adaptability, and self-esteem through a variety of activities.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 2: coll2 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll2" aria-expanded="false" aria-controls="coll2">
+                                        <h5 data-i18n="faq_q2_title">What age group does the camp cater to?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q2_body">
+                                        The camp is designed for children ages 7 to 12 for Forest Campers and 13 to 15 for the Leadership and Adventure Program.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 3: coll3 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll3" aria-expanded="false" aria-controls="coll3">
+                                        <h5 data-i18n="faq_q3_title">What are the camp hours?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q3_body">
+                                        The camp runs from 9 a.m. to 4 p.m., Monday to Friday.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 4: coll4 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll4" aria-expanded="false" aria-controls="coll4">
+                                        <h5 data-i18n="faq_q4_title">How long is the summer program?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q4_body">
+                                        The complete summer program lasts for 6 weeks, starting on July 7 and ending on August 15.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 5: coll5 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll5" aria-expanded="false" aria-controls="coll5">
+                                        <h5 data-i18n="faq_q5_title">What modules are included in the program?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q5_body">
+                                        The program consists of three modules: Survival, Emergency Response, and Mountain Sports.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 6: coll6 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll6" aria-expanded="false" aria-controls="coll6">
+                                        <h5 data-i18n="faq_q6_title">What topics will be covered in the three modules?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q6_body">
+                                        The topics we will be covering this summer are: Fire Skills, Bushcraft Skills, Wilderness First Aid, Emergency Planning, Altitude Skills, and Guiding and Navigation.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 7: coll7 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll7" aria-expanded="false" aria-controls="coll7">
+                                        <h5 data-i18n="faq_q7_title">Do you recommend that campers stay for all six weeks?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q7_body">
+                                        We cover 3 modules over the course of 6 weeks. We recommend that campers take all the modules as this enhances their learning.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 8: coll8 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll8" aria-expanded="false" aria-controls="coll8">
+                                        <h5 data-i18n="faq_q8_title">Is there a leadership development program? What skills do they develop?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q8_body">
+                                        Yes, participants ages 13 to 15 have the opportunity to become Counselors in Training through this program. They will reinforce and develop the same skills as the Forest Campers but from a perspective that requires them to model by example, responsibility, and how to guide others.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 9: coll9 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll9" aria-expanded="false" aria-controls="coll9">
+                                        <h5 data-i18n="faq_q9_title">Can I choose to pay by week or only for complete modules?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q9_body">
+                                        We recommend that Forest Campers take their modules in full to master the knowledge; however, we do accommodate exceptions upon request.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 10: coll10 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll10" aria-expanded="false" aria-controls="coll10">
+                                        <h5 data-i18n="faq_q10_title">Where do the activities take place?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q10_body">
+                                        Most activities are held at Scape Park, located within CapCana Destiny City.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 11: coll11 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll11" aria-expanded="false" aria-controls="coll11">
+                                        <h5 data-i18n="faq_q11_title">Are there opportunities to interact with animals?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q11_body">
+                                        Yes, campers will have the chance to interact with wildlife, including observing endemic animals, interacting with monkeys, and feeding iguanas.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 12: coll12 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll12" aria-expanded="false" aria-controls="coll12">
+                                        <h5 data-i18n="faq_q12_title">What are the nutritional standards of the camp?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q12_body">
+                                        We follow Child Nutrition and Cooking standards provided by Stanford University in 2022, focusing on homemade and healthy foods. Sodas and fried foods are prohibited in our program.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 13: coll13 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll13" aria-expanded="false" aria-controls="coll13">
+                                        <h5 data-i18n="faq_q13_title">What kind of team does Forest Camp have?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll13" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q13_body">
+                                        Our team is diverse and passionate, equipped with experience in neuro-education, mountain and altitude sports, wilderness first aid, and forest skills.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 14: coll14 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll14" aria-expanded="false" aria-controls="coll14">
+                                        <h5 data-i18n="faq_q14_title">How does the camp prioritize fun and exploration?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll14" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q14_body">
+                                        The camp emphasizes playful activities in natural settings, encouraging children to learn and explore while having fun.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 15: coll15 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll15" aria-expanded="false" aria-controls="coll15">
+                                        <h5 data-i18n="faq_q15_title">What is the focus of the educational curriculum?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll15" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q15_body">
+                                        The educational focus is on mountain sports, survival skills, and outdoor recreational activities.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 16: coll16 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll16" aria-expanded="false" aria-controls="coll16">
+                                        <h5 data-i18n="faq_q16_title">What is the goal of the camp?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll16" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q16_body">
+                                        Our goal is to develop leadership traits, adaptability, self-esteem, and reduce anxiety through adventure.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 17: coll17 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll17" aria-expanded="false" aria-controls="coll17">
+                                        <h5 data-i18n="faq_q17_title">Can parents visit the camp?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll17" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q17_body">
+                                        Specific visitation policies can be provided upon request, but generally, parents are encouraged to allow their children the opportunity to disconnect.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 18: coll18 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll18" aria-expanded="false" aria-controls="coll18">
+                                        <h5 data-i18n="faq_q18_title">Are there safety measures in place?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll18" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q18_body">
+                                        Yes, our staff is trained in wilderness first aid, and safety protocols are a priority in all activities. We have an ambulance and a doctor available on-site during all operational hours.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 19: coll19 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#coll19" aria-expanded="false" aria-controls="coll19">
+                                        <h5 data-i18n="faq_q19_title">How can parents register their kids for the camp?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll19" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q19_body">
+                                        Registration details and forms can be found on our website.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <!-- 20: coll20 -->
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                      <button class="accordion-button collapsed" type="button"	data-bs-toggle="collapse" data-bs-target="#coll20" aria-expanded="false" aria-controls="coll20">
+                                        <h5 data-i18n="faq_q20_title">What should campers bring to the camp?</h5>
+                                      </button>
+                                    </h2>
+                                    <div id="coll20" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body" data-i18n="faq_q20_body">
+                                        Campers should bring appropriate outdoor clothing, water bottles, and any personal items they may need during their time at camp. A detailed packing list will be provided upon registration.
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="copyright_area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="copyright_text">
+                  <h4 data-i18n="footer_copy">2025 © ForestCamp - All Rights Reserved.</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </section>
+    <!-- ========== About Part One Area End Here ==========  -->
+    <!-- ========== Copyright Area End Here ==========  -->
+    <!-- ========== All Js Link Here ===== -->
+     <script src="assets/js/bootstrap.min.js"></script>
+     <script src="assets/js/jquery-1.12.4.min.js"></script>
+     <script src="assets/js/slick.min.js"></script>
+     <script src="assets/js/main.js"></script>
+     <script src="assets/js/lang-toggle.js"></script>
+</body>
+</html>
