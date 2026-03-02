@@ -947,7 +947,7 @@ a{
 .activite_secend_img .img_framee{
     background-color: #DB840A;
     border-radius: 25px;
-    padding: 30px 40px;
+    padding: 10px 10px;
 }
 .included_icon {
 	display: flex;
@@ -1000,3 +1000,113 @@ a{
     opacity: 0.5;
 }
 /* ========== Activities Page Section Area Css Here End ==========  */
+/* ========== Summer Camp Page Section Area Css Here Start ==========  */
+#program_page_area{
+    margin: 50px 0;
+}
+.summer_section_title{
+    background-color: #D9820A;
+    display: inline-block;
+    padding: 0 30px;
+    border-radius: 20px;
+    color: #ffffff !important;
+}
+.summer_banner_img{
+    background-color: #D8C18C;
+    padding: 39px 26px;
+    border-radius: 35px;
+}
+.summer_banner_img img{
+    width: 100%;
+}
+.summer_banner_content p{
+    color: #05899C;
+    margin-bottom: 10px;
+}
+.summer_banner_bg_img{
+    position: absolute;
+    width: 60%;
+    right: 4%;
+    top: 50px;
+    z-index: -1;
+}
+.summer_what_will_learn h3{
+    color: #05899C;
+}
+.program_page_download_btn h3 {
+	font-size: 50px;
+	line-height: 60px;
+	color: #FFFFFF;
+	font-family: 'emone_bold';
+	background-color: #DC850A;
+	padding: 15px 31px;
+	border-radius: 30px;
+    display: inline-block;
+}
+.summer_items_box{
+    background-color: #05899C;
+    border-radius: 59px;
+    padding: 13px 24px;
+}
+.summer_items_box img.big_bagde{
+    margin-bottom: 35px;
+}
+.summer_items_box img{
+    width: 100%;
+}
+.summer_items_box a.badge_img img {
+	width: 100%;
+	position: absolute;
+	/* left: 0; */
+	bottom: -31px;
+	right: 25px;
+}
+.summer_what_will_learn_content h4{
+    text-align: start !important;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.cal_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.summer_what_will_learn_content .cal_img {
+	flex: 0 0 calc(20% - 12px);  /* 5টা এক লাইনে */
+    
+    aspect-ratio: 1 / 1;  /* width = height perfectly */
+	background-image: url(../images/summer_camp/calender.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	 background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color: #D9820A;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family: 'save_lemon';
+}
+.summer_page_for_bg img.full_bg {
+	position: absolute;
+	left: 0;
+	top: 20%;
+	width: 100%;
+    z-index: -1;
+}
+.for_connect_line{
+    position: relative;
+}
+.for_connect_line_img {
+	position: absolute;
+	width: 150px;
+	top: 91%;
+	left: 0;
+	z-index: -1;
+}
+.summer_last_button a{
+    background-color: #05899C;
+    color: #ffffff;
+}
+/* ========== Summer Camp Page Section Area Css Here End ==========  */

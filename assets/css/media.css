@@ -347,6 +347,12 @@ margin-top: 30px;
 	margin-top: 30px;
     margin-bottom: -40px !important;
 }
+.summer_what_will_learn h3 {
+	font-size: 30px;
+	line-height: 30px;
+	margin-top: 30px;
+    margin-bottom: 40px !important;
+}
 .program_page_dis h3 {
 	font-size: 30px;
 	line-height: 30px;
@@ -371,9 +377,11 @@ margin-top: 30px;
   
 }
 .program_page_download_btn a {
+	font-size: 16px; 
+}
+.program_page_download_btn h3 {
 	font-size: 16px;
-    
-    
+	line-height: 20px;
 }
 .program_page_part_two h3 {
 	font-size: 30px;
@@ -468,6 +476,42 @@ margin-top: 30px;
 	padding-bottom: 50px;
 }
 
+/* ==== Summer Page  */
+.cal_wrapper{
+    display: flex;
+    flex-wrap: wrap;           /* নিচে নামতে পারবে */
+    justify-content: flex-start; /* Left থেকে শুরু */
+    gap: 15px;
+}
+.summer_what_will_learn_content .cal_img {
+	flex: 1 1 15%;
+	max-width: 20%;
+	aspect-ratio: 1 / 1;
+	font-size: 20px;
+	padding-top: 10px;
+}
+.summer_what_will_learn_content  h4{
+    margin-bottom: 20px;
+}
+.summer_items_box {
+	background-color: #05899C;
+	border-radius: 20px;
+	padding: 13px 10px;
+}
+.summer_items_box img {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.summer_items_box a.badge_img img {
+	width: 80%;
+	position: unset;
+	/* left: 0; */
+	bottom: -31px;
+	right: 25px;
+}
  }
 
 
@@ -706,6 +750,15 @@ margin-top: 30px;
 	font-size: 24px;
     
 }
+.program_page_download_btn h3 {
+	font-size: 24px;
+    line-height: 28px;
+    
+}
+.program_page_download_btn {
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
 .program_page_part_two h3 {
 	font-size: 45px;
 	margin-top: 40px;
@@ -737,8 +790,54 @@ margin-top: 30px;
 	font-size: 45px;
 	line-height: 70px;
 }
-
-
+/* ==== Summer Page  */
+.cal_wrapper{
+    display: flex;
+    flex-wrap: wrap;           /* নিচে নামতে পারবে */
+    justify-content: flex-start; /* Left থেকে শুরু */
+    gap: 15px;
+}
+.summer_what_will_learn_content .cal_img {
+	flex: 1 1 15%;
+	max-width: 20%;
+	aspect-ratio: 1 / 1;
+	font-size: 35px;
+	padding-top: 17px;
+}
+.summer_what_will_learn_content  h4{
+    margin-bottom: 20px;
+}
+.summer_items_box {
+	background-color: #05899C;
+	border-radius: 20px;
+	padding: 13px 10px;
+}
+.summer_items_box img {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.summer_items_box a.badge_img img {
+	width: 50%;
+	position: unset;
+	/* left: 0; */
+	bottom: -31px;
+	right: 25px;
+}
+.summer_section_title {
+	background-color: #D9820A;
+	display: inline-block;
+	/* padding: 0 30px; */
+	border-radius: 20px;
+	color: #ffffff !important;
+	padding: 10px 28px;
+	line-height: 54px !important;
+}
+.summer_banner_content {
+    margin-top: 30px;
+}
 
  }
 
@@ -747,6 +846,9 @@ margin-top: 30px;
 
 /* ========== 768px to 991.99px  */
 @media (min-width: 768px) and (max-width: 991.99px) { 
+    .summer_banner_content {
+    margin-top: 30px;
+}
      /* ======== Home Page ========  */
      .about_p_secend_text {
         margin-top: 100px;
@@ -958,6 +1060,10 @@ margin-top: 30px;
 .program_page_download_btn a {
 	font-size: 24px;
 }
+.program_page_download_btn h3 {
+	font-size: 24px;
+    line-height: 30px;
+}
 .program_page_part_two h3 {
 	font-size: 45px;
 	margin-top: 40px;
@@ -989,7 +1095,20 @@ margin-top: 30px;
 	font-size: 45px;
 	line-height: 70px;
 }
-
+.summer_items_box img {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.summer_items_box a.badge_img img {
+	width: 50%;
+	position: unset;
+	/* left: 0; */
+	bottom: -31px;
+	right: 25px;
+}
 
  }
 
@@ -1177,6 +1296,9 @@ margin-top: 30px;
 .program_page_download_btn a {
 	font-size: 24px;
 }
+.program_page_download_btn h3 {
+	font-size: 24px;
+}
 .program_page_part_two h3 {
 	font-size: 45px;
 	margin-top: 40px;
@@ -1361,6 +1483,10 @@ margin-top: 30px;
 	font-size: 30px;
    
 }
+.program_page_download_btn h3 {
+	font-size: 30px;
+   
+}
 .program_page_part_two h3 {
 	font-size: 61px;
 	margin-top: 40px;
@@ -1387,6 +1513,21 @@ margin-top: 30px;
 .gallery_page_title h3 {
 	font-size: 61px;
 }
+.summer_what_will_learn_content .cal_img {
+	flex: 0 0 calc(20% - 12px);
+	aspect-ratio: 1 / 1;
+	background-image: url(../images/summer_camp/calender.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #D9820A;
+	font-size: 60px;
+	padding-top: 34px;
+	font-family: 'save_lemon';
+}
 
  }
 
@@ -1406,6 +1547,21 @@ margin-top: 30px;
     .review_for_bg {
         margin-bottom: 10px;
     }
+    .summer_what_will_learn_content .cal_img {
+	flex: 0 0 calc(20% - 12px);
+	aspect-ratio: 1 / 1;
+	background-image: url(../images/summer_camp/calender.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #D9820A;
+	font-size: 49px;
+	padding-top: 34px;
+	font-family: 'save_lemon';
+}
 
 }
 
@@ -1420,6 +1576,21 @@ margin-top: 30px;
         width: 100%;
         object-fit: cover;
     }
+    .summer_what_will_learn_content .cal_img {
+	flex: 0 0 calc(20% - 12px);
+	aspect-ratio: 1 / 1;
+	background-image: url(../images/summer_camp/calender.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #D9820A;
+	font-size: 55px;
+	padding-top: 34px;
+	font-family: 'save_lemon';
+}
  }
 
 
@@ -1434,7 +1605,21 @@ margin-top: 30px;
         width: 100%;
         object-fit: cover;
     }
-
+.summer_what_will_learn_content .cal_img {
+	flex: 0 0 calc(20% - 12px);
+	aspect-ratio: 1 / 1;
+	background-image: url(../images/summer_camp/calender.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #D9820A;
+	font-size: 55px;
+	padding-top: 34px;
+	font-family: 'save_lemon';
+}
     
  }
 
@@ -1463,6 +1648,21 @@ margin-top: 30px;
         /* height: 100%; */
         width: 60% !important;
     }
+    .summer_what_will_learn_content .cal_img {
+	flex: 0 0 calc(20% - 12px);
+	aspect-ratio: 1 / 1;
+	background-image: url(../images/summer_camp/calender.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #D9820A;
+	font-size: 60px;
+	padding-top: 50px;
+	font-family: 'save_lemon';
+}
  }
 
 /* Refactor responsive CSS: tipografías y ajustes banner_image */

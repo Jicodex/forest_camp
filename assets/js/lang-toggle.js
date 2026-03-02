@@ -105,7 +105,7 @@ IG: @scapeforestcamp`,
     emergency_heading:
       'WINTER CAMP <br><span style="color:#DC850A;">from December 15 to 19</span>',
     wilderness_aid:
-      "Join us for an amazing week of the Forest Camp<br>experience during christmas vacations.",
+      "Join us for an amazing week of the Forest Camp<br>experience during holidays.",
     weeks_label: "DAYS THIS FALL",
     survival_heading:
       'THANKSGIVING CAMP <br><span style="color:#DC850A;">From November 27 to 29</span>',
@@ -113,7 +113,7 @@ IG: @scapeforestcamp`,
       "Jam packed adventures in this express camp. We will <br> enjoy all the Forest Camp favorites from thursday to saturday.",
     modules_label: "WEEK THIS WINTER",
     sports_heading:
-      'SUMMER CAMP<br><span style="color:#DC850A;">From 29 to august 7 2026</span>',
+      'SUMMER CAMP<br><span style="color:#DC850A;">From july 29 to august 7 2026</span>',
     altitude:
       "We are back with our full program, 3 complete <br> educatoinal modules for our forest campers.",
     themes_label: "Weeks summer 2026",
@@ -238,7 +238,7 @@ IG: @scapeforestcamp`,
       "Campers should bring appropriate outdoor clothing, water bottles, and any personal items they may need during their time at camp. A detailed packing list will be provided upon registration.",
 
     // Footer
-    footer_copy: "2025 © ForestCamp - All Rights Reserved.",
+    footer_copy: "2026 © ForestCamp - All Rights Reserved.",
 
     //;<--------Activaties PAGE-------->
     page_title_activities: "Activities - Forest Camp",
@@ -248,35 +248,92 @@ IG: @scapeforestcamp`,
 
     // Camping Section
     camping_dates_title: "Dates",
-    camping_dates_oct: "Oct 19 - 20",
-    camping_dates_dec: "Dec 12 - 13",
+    camping_dates_dec: "March 14 - 15",
+    camping_dates_may: "May 23 - 24",
+    camping_dates_btn: "Register Now!",
     camping_title: "Camping Events",
     camping_desc_1:
       "We’ll meet at the home base area to prepare for our overnight camping experience at Scape Park. Get ready for s’mores & games under the stars & a super adventure in the morning.",
-    camping_desc_2: "Drop off - 5 PM Friday<br>Pick up - 1 PM Saturday",
+    camping_desc_2: "Drop off - 5 PM Saturday<br>Pick up - 1 PM Sunday",
     camping_included_title: "What's included:",
     camping_included_item_1: "Learn to Camp",
     camping_included_item_2: "Dinner under the stars",
-    camping_included_item_3: "Certificated Staff",
+    camping_included_item_3: "Certified staff",
     camping_included_item_4: "Campfire, s'mores & stories",
     camping_included_item_5: "Food and drinks",
-    camping_included_item_6: "Adventures in Scape Park",
+    camping_included_item_6: "Adventures at Scape Park",
 
     // Workshop Section
     workshop_title: "Workshop",
-    workshop_subtitle: "Survival skills 10 hours",
+    workshop_subtitle: "",
     workshop_desc:
       "Hard skills workshop to improve techniques for simulation play. Expect fun challenges & dynamic survival skills training (5 hours Saturday + 5 hours Sunday + 1 hour for lunch).",
     workshop_desc_2: "Drop off - 10 AM<br>Pick up - 4 PM",
     workshop_dates_title: "Dates",
-    workshop_dates_value: "Oct 19 - 20",
+    workshop_dates_value: "April 18 - 19",
     workshop_included_title: "What's included:",
     workshop_included_item_1: "Educational lessons",
     workshop_included_item_2: "Special equipment",
     workshop_included_item_3: "Certified staff",
     workshop_included_item_4: "First aid",
     workshop_included_item_5: "Food and drinks",
-    workshop_included_item_6: "Adventures in Scape Park",
+    workshop_included_item_6: "Adventures at Scape Park",
+
+
+        // recreation Section
+    recreational_dates_title: "Dates",
+    recreational_subtitle: "Let's play with nature",
+    recreational_dates_dec: "March 14",
+    recreational_dates_may: "May 23",
+    recreational_dates_btn: "Register Now!",
+    recreational_title: "Recreational experiences",
+    recreational_desc_1:
+      "Enjoy a morning at Scape Park, Cap Cana, in the charming Mini Scape. Small zip lines, a green play area, 6 inch deep pools, a mini waterfall, swings, and climbing in a safe, outdoor setting. Come with your adult companion and enjoy an unforgettable recreational experience.",
+    recreational_desc_2: "Drop off - 9 AM <br>Pick up - 1 PM",
+    recreational_included_title: "What's included:",
+    camping_included_item_1: "Learn to Camp",
+    camping_included_item_2: "Dinner under the stars",
+    camping_included_item_3: "Certified staff",
+    camping_included_item_4: "Campfire, s'mores & stories",
+    recreational_included_item_5: "Fruits and water",
+    camping_included_item_6: "Adventures at Scape Park",
+
+
+            // Hangouts section
+    Hangouts_dates_title: "Dates",
+    Hangouts_subtitle: "Hangouts",
+    Hangouts_dates_dec: "March 12",
+    Hangouts_dates_may: "June 4",
+    Hangouts_dates_btn: "Register Now!",
+    Hangouts_title: "Recreational experiences",
+    Hangouts_desc:
+      "When School’s out, we Hang out! Join us for a recreation of a summer camp day during the school year to have fun and enjoy Nature. Sprinkling normal days with the feel of summer!",
+    Hangouts_desc_2: "Drop off - 10 AM <br>Pick up - 4 PM",
+    Hangouts22_included_title: "What's included:",
+    camping_included_item_1: "Learn to Camp",
+    camping_included_item_2: "Dinner under the stars",
+    camping_included_item_3: "Certified staff",
+    camping_included_item_4: "Campfire, s'mores & stories",
+    camping_included_item_5: "Food and drinks",
+    camping_included_item_6: "Adventures at Scape Park",
+
+        // bday Section
+    bday_dates_title: "Dates",
+    bday_subtitle: "BIRTHDAYS",
+    bday_dates_dec: "March 14",
+    bday_dates_may: "May 23",
+    bday_dates_btn: "Reserve Now!",
+    bday_title: "Celebrate with Forest Camp",
+    bday_desc:
+      "Forest Camp can make your birthday wishes come true! We create a camp day for you and your best friends where you get to pick the activities, whats for lunch and your cake. Ask us about our birthday packages and choose between saturday of sunday for your special celebration. For this event parents can participate all day or join us for the cutting of the cake. Let Forest Camp take care of everything and you get to have the coolest, most unforgettable birthday",
+    bday_desc_2: "Ask for our different packages",
+    bday_included_title: "What's included:",
+    bday_included_item_1: "Certified staff",
+    bday_included_item_2: "Access for all your guests",
+    bday_included_item_3: "Birthday Decoration",
+    bday_included_item_4: "food and drinks",
+    bday_included_item_5: "Your favorite flavor cake",
+    bday_included_item_6: "Adventures at Scape Park",
 
     // Coming Soon Section
     tba_title: "TBA",
@@ -285,7 +342,40 @@ IG: @scapeforestcamp`,
 
     //;<--------Activaties PAGE-------->
 
-    //<--------HOME PAGE-------->
+    // <-------- SUMMER CAMP PAGE -------->
+
+summer_section_title: "The Summer Camp",
+
+summer_banner_title: "Information",
+
+summer_banner_p1: "Designed for kids ages 7-12, this adventure-filled camp from 9 AM to 4 PM offers the perfect blend of fun and learning in the great outdoors. Participants will enjoy thrilling mountain sports, heartwarming interactions with animals, and immersive nature-based activities at Scape Park.",
+
+summer_banner_p2: "Every moment is packed with excitement and discovery, fostering a deep connection with the environment while celebrating the magic of the season. Give your child the gift of exploration, fresh air, and unforgettable memories — reserve a spot today!",
+
+summer_learn_title: "What will your kids learn this summer?",
+
+summer_learn_list_1: "Weeks",
+summer_learn_list_2: "Modules",
+summer_learn_list_3: "Topics",
+
+summer_modulo_title_1: "Module 1: Nature Skills — June 22 - July 3",
+summer_modulo_title_2: "Module 2: Emergency Skills — July 6 - July 17",
+summer_modulo_title_3: "Module 3: Survival Skills — July 20 - July 31",
+summer_modulo_title_4: "Module 4: Navigation Skills — August 3 - August 14",
+
+summer_module_list_1: "Personal Preparedness Planning",
+summer_module_list_11: "Moving in the Wilderness",
+
+summer_module_list_2: "Assembling Your First Aid Kit & Go Bag",
+summer_module_list_22: "Search, Rescue & Evacuation Strategies",
+
+summer_module_list_3: "Cordage, Shelter & Fire Making",
+summer_module_list_33: "Mastering Primitive Wilderness Cooking",
+
+summer_module_list_4: "The Lost Art of Reading Nature’s Signs",
+summer_module_list_44: "Remote Guiding & Route Planning",
+
+summer_last_btn: "Start the Adventure!",
   },
   es: {
     page_title_home: "Inicio - Forest Camp",
@@ -307,7 +397,7 @@ Nos enfocamos en juegos entre edades mixtas, escucha activa, actividades que fom
     about_stat2: "Acres de belleza<br>natural por explorar",
     about_stat3: "Actividades y<br>atracciones",
     program_heading: "Nuestros programas",
-    program_paragraph: `Un programa que busca fomentar el desarrollo de habilidades como liderazgo y adaptabilidad, aumentar la autoestima y reducir la ansiedad mediante la aventura. Nuestro enfoque educativo está en deportes de montaña, habilidades de supervivencia y actividades recreativas al aire libre.
+    program_paragraph: `Un programa que busca fomentar el desarrollo de habilidades como liderazgo y adaptabilidad, aumentar la autoestima y reducir la ansiedad mediante la aventura.<br><br> Nuestro enfoque educativo está en deportes de montaña, habilidades de supervivencia y actividades recreativas al aire libre.
 La idea de estos temas es divertirse mientras se desarrollan habilidades para superar desafíos, y así sentirse más seguros y confiados en nuestras acciones y emociones.`,
     program_cta: "Saber más",
     gallery_heading: "Nos divertimos al aire libre y aprendemos",
@@ -389,20 +479,20 @@ IG: @scapeforestcamp`,
     // nav_faq: "Preguntas",
     section_title: "Nuestros programas",
     emergency_heading:
-      'Respuesta a Emergencias<br><span style="color:#DC850A;">del 21 de julio al 1 de agosto</span>',
-    wilderness_aid: "PRIMEROS AUXILIOS EN LA SELVA",
-    emergency_plan: "PLANIFICACIÓN DE EMERGENCIAS",
+      'WINTER CAMP<br><span style="color:#DC850A;">del 15 al 19 de Diciembre</span>',
+    wilderness_aid: "Únete disfrutar con nosotros de una semana increíble de la experiencia del Forest Camp durante las vacaciones.",
+    emergency_plan: "",
     weeks_label: "SEMANAS ESTE VERANO",
     survival_heading:
-      'Habilidades de Supervivencia <br><span style="color:#DC850A;">del 7 al 18 de julio</span>',
-    fire_skills: "HABILIDADES DE FUEGO",
-    bushcraft: "HABILIDADES DE BUSHCRAFT",
-    modules_label: "Módulos",
+      'THANKSGIVING CAMP<br><span style="color:#DC850A;">del 27 al 29 Noviembre</span>',
+    fire_skills: "Aventuras a tope en este campamento exprés. Disfrutaremos de todos los favoritos de Forest Camp de jueves a sábado.",
+    bushcraft: "",
+    modules_label: "Semana este invierno",
     sports_heading:
-      'Deportes de MontaÑa <br><span style="color:#DC850A;">del 4 al 15 de agosto</span>',
-    altitude: "HABILIDADES DE ALTURA",
-    navigation: "GUIADO Y NAVEGACIÓN",
-    themes_label: "Temas",
+      'SUMMER CAMP<br><span style="color:#DC850A;">del 29 de junio al 7 de agosto</span>',
+    altitude: "Estamos de vuelta con nuestro programa completo, 3 módulos educativos completos para nuestros forest campers.",
+    navigation: "",
+    themes_label: "Semanas en verano 2026",
     and_more: "",
     join_fun: "ÚNETE A LA DIVERSIÓN",
     learn_heading: "¿QUÉ APRENDERÁN TUS HIJOS?",
@@ -437,12 +527,13 @@ IG: @scapeforestcamp`,
 
     // Camping Section
     camping_dates_title: "Fecha",
-    camping_dates_oct: "Oct 19 - 20",
-    camping_dates_dec: "Dic 12 - 13",
+    camping_dates_dec: "Marzo 14 - 15",
+    camping_dates_may: "Mayo 23 - 24",
+    camping_dates_btn: "Registrate",
     camping_title: "Acampadas",
     camping_desc_1:
       "Nos reunimos en el 'homebase' donde juntos nos preparamos para la experiencia de campamento nocturno en Scape Park. Prepárate para disfrutar de s'mores, juegos bajo las estrellas y una aventura increíble la siguiente mañana.",
-    camping_desc_2: "Llegada - 5 PM viernes<br>Recogida - 1 PM sábado",
+    camping_desc_2: "Llegada - 5 PM sábado<br>Recogida - 1 PM domingo",
     camping_included_title: "¿Qué incluye?:",
     camping_included_item_1: "Aprender a acampar",
     camping_included_item_2: "Cena bajo las estrellas",
@@ -453,12 +544,12 @@ IG: @scapeforestcamp`,
 
     // Workshop Section
     workshop_title: "Workshop",
-    workshop_subtitle: "Habilidades de supervivencia 10 horas",
+    workshop_subtitle: "",
     workshop_desc:
       "Taller para mejorar las técnicas durante las prácticas en simulación. Enfoque en desafíos divertidos y entrenamiento dinámico de habilidades de supervivencia (5 horas el sábado + 5 horas el domingo + 1 hora de almuerzo).",
     workshop_desc_2: "Llegada - 10 AM<br>Recogida - 4 PM",
     workshop_dates_title: "Fechas",
-    workshop_dates_value: "Oct 19 - 20",
+    workshop_dates_value: "Abril 18 - 19",
     workshop_included_title: "¿Qué incluye?:",
     workshop_included_item_1: "Lecciones didácticas",
     workshop_included_item_2: "Equipo especiales",
@@ -466,6 +557,60 @@ IG: @scapeforestcamp`,
     workshop_included_item_4: "Primeros auxilios",
     workshop_included_item_5: "Comida y bebida",
     workshop_included_item_6: "Aventuras en Scape Park",
+
+    // recreation Section
+    recreational_dates_title: "Fechas",
+    recreational_subtitle: "Juegos con la naturaleza",
+    recreational_dates_dec: "Marzo 14",
+    recreational_dates_may: "Mayo 23",
+    recreational_dates_btn: "Registrate",
+    recreational_title: "Experiencias recreativas",
+    recreational_desc_1:
+      "Disfruta de una mañana en Scape Park, Cap Cana, en el encantador Mini Scape. Pequeñas tirolesas, un área de juegos verde, piscinas de 6 pulgadas de profundidad, una mini cascada, columpios y escalada en un entorno seguro al aire libre. Ven con tu acompañante adulto y disfruta de una experiencia recreativa inolvidable.",
+    recreational_desc_2: "Llegada - 9 AM <br>Recogida - 1 PM",
+    recreational_included_title: "¿Qué incluye?:",
+    camping_included_item_1: "Aprender a acampar",
+    camping_included_item_2: "Cena bajo las estrellas",
+    camping_included_item_3: "Staff certificado",
+    camping_included_item_4: "Fogata, smores & historias",
+    recreational_included_item_5: "Frutas y agua",
+    camping_included_item_6: "Aventuras en Scape Park",
+
+    // Hangouts section
+    Hangouts_dates_title: "Fechas",
+    Hangouts_subtitle: "Hangouts",
+    Hangouts_dates_dec: "Marzo 12",
+    Hangouts_dates_may: "Junio 4",
+    Hangouts_dates_btn: "Registrate",
+    Hangouts_title: "Experiencias recreativas",
+    Hangouts_desc:
+      "¡Cuando la escuela termina, nosotros nos juntamos! Únete a nosotros para recrear un día de campamento de verano durante el año escolar para divertirte y disfrutar de la naturaleza. ¡Espolvoreando los  días normales con la sensación del verano!",
+    Hangouts_desc_2: "Llegada - 10 AM <br>Recogida - 4 PM",
+    Hangouts22_included_title: "¿Qué incluye?:",
+    camping_included_item_1: "Aprender a acampar",
+    camping_included_item_2: "Cena bajo las estrellas",
+    camping_included_item_3: "Staff certificado",
+    camping_included_item_4: "Fogata, smores & historias",
+    camping_included_item_5: "Comida y bebida",
+    camping_included_item_6: "Aventuras en Scape Park",
+
+    // bday Section
+    bday_dates_title: "Fechas",
+    bday_subtitle: "CUMPLEAÑOS",
+    bday_dates_dec: "Marzo 14",
+    bday_dates_may: "Mayo 23",
+    bday_dates_btn: "Reserva ahora",
+    bday_title: "Celebra con Forest Camp",
+    bday_desc:
+      "¡Forest Camp puede hacer realidad tus deseos de cumpleaños! Creamos un día de campamento para ti y tus mejores amigos donde puedes elegir las actividades, qué hay para el almuerzo y tu pastel. Pregúntanos por nuestros paquetes de cumpleaños y elige entre sábado o domingo para tu celebración especial. Para este evento, los padres pueden participar todo el día o unirse a nosotros para el corte del pastel. Deja que Forest Camp se encargue de todo y tú disfruta del cumpleaños más genial e inolvidable.",
+    bday_desc_2: "Pregunta por nuestros diferentes paquetes",
+    bday_included_title: "¿Qué incluye?:",
+    bday_included_item_1: "Staff certificado",
+    bday_included_item_2: "Acceso para todos tus invitados",
+    bday_included_item_3: "Decoración de cumpleaños",
+    bday_included_item_4: "Comida y bebida",
+    bday_included_item_5: "Tu pastel de sabor favorito",
+    bday_included_item_6: "Aventuras en Scape Park",        
 
     // Coming Soon Section
     tba_title: "Próximamente",
@@ -572,50 +717,66 @@ IG: @scapeforestcamp`,
       "Los campistas deben traer ropa adecuada para exteriores, botellas de agua y cualquier artículo personal que necesiten. Se proporcionará una lista de empaque al registrarse.",
 
     // Footer
-    footer_copy: "2025 © ForestCamp - Todos los derechos reservados.",
+    footer_copy: "2026 © ForestCamp - Todos los derechos reservados.",
+    // <-------- PÁGINA DEL CAMPAMENTO DE VERANO -------->
+
+summer_section_title: "El Campamento de Verano",
+
+summer_banner_title: "Información",
+
+summer_banner_p1: "Diseñado para niños de 7 a 12 años, este campamento lleno de aventuras, de 9 AM a 4 PM, ofrece la combinación perfecta de diversión y aprendizaje al aire libre. Los participantes disfrutarán de emocionantes deportes de montaña, cálidas interacciones con animales y actividades inmersivas basadas en la naturaleza en Scape Park.",
+
+summer_banner_p2: "Cada momento está lleno de emoción y descubrimiento, fomentando una conexión profunda con el medio ambiente mientras se celebra la magia de la temporada. ¡Regala a tu hijo la experiencia de explorar, aire fresco y recuerdos inolvidables — reserva un lugar hoy mismo!",
+
+summer_learn_title: "¿Qué aprenderán tus hijos este verano?",
+
+summer_learn_list_1: "Semanas",
+summer_learn_list_2: "Módulos",
+summer_learn_list_3: "Temas",
+
+summer_modulo_title_1: "Módulo 1: Habilidades en la Naturaleza — 22 de junio al 3 de julio",
+summer_modulo_title_2: "Módulo 2: Habilidades de Emergencia — 6 de julio al 17 de julio",
+summer_modulo_title_3: "Módulo 3: Habilidades de Supervivencia — 20 de julio al 31 de julio",
+summer_modulo_title_4: "Módulo 4: Habilidades de Navegación — 3 de agosto al 14 de agosto",
+
+summer_module_list_1: "Planificación de Preparación Personal",
+summer_module_list_11: "Moviéndose en la Naturaleza",
+
+summer_module_list_2: "Armar tu Botiquín de Primeros Auxilios y Mochila de Emergencia",
+summer_module_list_22: "Estrategias de Búsqueda, Rescate y Evacuación",
+
+summer_module_list_3: "Cuerdas, Refugio y Encendido de Fuego",
+summer_module_list_33: "Dominar la Cocina Primitiva en la Naturaleza",
+
+summer_module_list_4: "El Arte Perdido de Leer las Señales de la Naturaleza",
+summer_module_list_44: "Guía Remota y Planificación de Rutas",
+
+summer_last_btn: "¡Comienza la Aventura!",
   },
-};
-document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.getElementById("langToggleBtn");
-  const flag = document.getElementById("langFlag"); // ✅ image tag select
-  if (!btn || !flag) return;
 
-  // Load saved lang or default
-  let lang = localStorage.getItem("lang") || "en";
+  
 
-  function applyLanguage() {
-    // ✅ Update all data-i18n elements
-    document.querySelectorAll("[data-i18n]").forEach(el => {
-      const key = el.dataset.i18n;
-      if (translations[lang] && translations[lang][key]) {
-        el.innerHTML = translations[lang][key];
-      }
+  };
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('langToggleBtn');
+    if (!btn) return;
+  
+    let lang = localStorage.getItem('lang') || 'en';
+  
+    function apply() {
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.dataset.i18n;
+        el.innerHTML = translations[lang][key] || '';
+      });
+      btn.innerText = lang === 'en' ? '🇩🇴ES' : '🇺🇸EN';
+    }
+  
+    apply();
+  
+    btn.addEventListener('click', () => {
+      lang = lang === 'en' ? 'es' : 'en';
+      localStorage.setItem('lang', lang);
+      apply();
     });
-
-    // ✅ Update flag image instead of emoji text
-    if (lang === "en") {
-      flag.src = "assets/images/esflag.png"; // Spanish flag shown when English active
-      flag.alt = "ES";
-    } else {
-      flag.src = "assets/images/usflag.png"; // English flag shown when Spanish active
-      flag.alt = "EN";
-    }
-
-    // ✅ Update page title
-    const bodyPage = document.body.dataset.page || "home";
-    const titleKey = `page_title_${bodyPage}`;
-    if (translations[lang] && translations[lang][titleKey]) {
-      document.title = translations[lang][titleKey];
-    }
-  }
-
-  // ✅ Apply language on load
-  applyLanguage();
-
-  // ✅ Toggle button click
-  btn.addEventListener("click", () => {
-    lang = lang === "en" ? "es" : "en";
-    localStorage.setItem("lang", lang);
-    applyLanguage();
   });
-});
