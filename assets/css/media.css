@@ -481,14 +481,14 @@ margin-top: 30px;
     display: flex;
     flex-wrap: wrap;           /* নিচে নামতে পারবে */
     justify-content: flex-start; /* Left থেকে শুরু */
-    gap: 15px;
+    gap: 5px;
 }
 .summer_what_will_learn_content .cal_img {
 	flex: 1 1 15%;
 	max-width: 20%;
 	aspect-ratio: 1 / 1;
-	font-size: 20px;
-	padding-top: 10px;
+	font-size: 24px;
+	padding-top: 6%;
 }
 .summer_what_will_learn_content  h4{
     margin-bottom: 20px;
