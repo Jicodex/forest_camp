@@ -740,6 +740,15 @@ a{
 	width: 90%;
 	z-index: -9;
 }
+.program_last_section_bg {
+	position: absolute;
+	left: 50%;
+	top: 12%;
+	transform: translateX(-50%);
+	height: 60%;
+	width: auto !important;
+    z-index: -1;
+}
 /* ========== programm Page Section Area Css Here End ==========  */
 
 /* ======================================================= */

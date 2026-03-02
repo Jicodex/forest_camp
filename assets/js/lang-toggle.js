@@ -279,8 +279,7 @@ IG: @scapeforestcamp`,
     workshop_included_item_5: "Food and drinks",
     workshop_included_item_6: "Adventures at Scape Park",
 
-
-        // recreation Section
+    // recreation Section
     recreational_dates_title: "Dates",
     recreational_subtitle: "Let's play with nature",
     recreational_dates_dec: "March 14",
@@ -298,8 +297,7 @@ IG: @scapeforestcamp`,
     recreational_included_item_5: "Fruits and water",
     camping_included_item_6: "Adventures at Scape Park",
 
-
-            // Hangouts section
+    // Hangouts section
     Hangouts_dates_title: "Dates",
     Hangouts_subtitle: "Hangouts",
     Hangouts_dates_dec: "March 12",
@@ -317,7 +315,7 @@ IG: @scapeforestcamp`,
     camping_included_item_5: "Food and drinks",
     camping_included_item_6: "Adventures at Scape Park",
 
-        // bday Section
+    // bday Section
     bday_dates_title: "Dates",
     bday_subtitle: "BIRTHDAYS",
     bday_dates_dec: "March 14",
@@ -344,38 +342,40 @@ IG: @scapeforestcamp`,
 
     // <-------- SUMMER CAMP PAGE -------->
 
-summer_section_title: "The Summer Camp",
+    summer_section_title: "The Summer Camp",
 
-summer_banner_title: "Information",
+    summer_banner_title: "Information",
 
-summer_banner_p1: "Designed for kids ages 7-12, this adventure-filled camp from 9 AM to 4 PM offers the perfect blend of fun and learning in the great outdoors. Participants will enjoy thrilling mountain sports, heartwarming interactions with animals, and immersive nature-based activities at Scape Park.",
+    summer_banner_p1:
+      "Designed for kids ages 7-12, this adventure-filled camp from 9 AM to 4 PM offers the perfect blend of fun and learning in the great outdoors. Participants will enjoy thrilling mountain sports, heartwarming interactions with animals, and immersive nature-based activities at Scape Park.",
 
-summer_banner_p2: "Every moment is packed with excitement and discovery, fostering a deep connection with the environment while celebrating the magic of the season. Give your child the gift of exploration, fresh air, and unforgettable memories — reserve a spot today!",
+    summer_banner_p2:
+      "Every moment is packed with excitement and discovery, fostering a deep connection with the environment while celebrating the magic of the season. Give your child the gift of exploration, fresh air, and unforgettable memories — reserve a spot today!",
 
-summer_learn_title: "What will your kids learn this summer?",
+    summer_learn_title: "What will your kids learn this summer?",
 
-summer_learn_list_1: "Weeks",
-summer_learn_list_2: "Modules",
-summer_learn_list_3: "Topics",
+    summer_learn_list_1: "Weeks",
+    summer_learn_list_2: "Modules",
+    summer_learn_list_3: "Topics",
 
-summer_modulo_title_1: "Module 1: Nature Skills — June 22 - July 3",
-summer_modulo_title_2: "Module 2: Emergency Skills — July 6 - July 17",
-summer_modulo_title_3: "Module 3: Survival Skills — July 20 - July 31",
-summer_modulo_title_4: "Module 4: Navigation Skills — August 3 - August 14",
+    summer_modulo_title_1: "Module 1: Nature Skills — June 22 - July 3",
+    summer_modulo_title_2: "Module 2: Emergency Skills — July 6 - July 17",
+    summer_modulo_title_3: "Module 3: Survival Skills — July 20 - July 31",
+    summer_modulo_title_4: "Module 4: Navigation Skills — August 3 - August 14",
 
-summer_module_list_1: "Personal Preparedness Planning",
-summer_module_list_11: "Moving in the Wilderness",
+    summer_module_list_1: "Personal Preparedness Planning",
+    summer_module_list_11: "Moving in the Wilderness",
 
-summer_module_list_2: "Assembling Your First Aid Kit & Go Bag",
-summer_module_list_22: "Search, Rescue & Evacuation Strategies",
+    summer_module_list_2: "Assembling Your First Aid Kit & Go Bag",
+    summer_module_list_22: "Search, Rescue & Evacuation Strategies",
 
-summer_module_list_3: "Cordage, Shelter & Fire Making",
-summer_module_list_33: "Mastering Primitive Wilderness Cooking",
+    summer_module_list_3: "Cordage, Shelter & Fire Making",
+    summer_module_list_33: "Mastering Primitive Wilderness Cooking",
 
-summer_module_list_4: "The Lost Art of Reading Nature’s Signs",
-summer_module_list_44: "Remote Guiding & Route Planning",
+    summer_module_list_4: "The Lost Art of Reading Nature’s Signs",
+    summer_module_list_44: "Remote Guiding & Route Planning",
 
-summer_last_btn: "Start the Adventure!",
+    summer_last_btn: "Start the Adventure!",
   },
   es: {
     page_title_home: "Inicio - Forest Camp",
@@ -480,17 +480,20 @@ IG: @scapeforestcamp`,
     section_title: "Nuestros programas",
     emergency_heading:
       'WINTER CAMP<br><span style="color:#DC850A;">del 15 al 19 de Diciembre</span>',
-    wilderness_aid: "Únete disfrutar con nosotros de una semana increíble de la experiencia del Forest Camp durante las vacaciones.",
+    wilderness_aid:
+      "Únete disfrutar con nosotros de una semana increíble de la experiencia del Forest Camp durante las vacaciones.",
     emergency_plan: "",
     weeks_label: "SEMANAS ESTE VERANO",
     survival_heading:
       'THANKSGIVING CAMP<br><span style="color:#DC850A;">del 27 al 29 Noviembre</span>',
-    fire_skills: "Aventuras a tope en este campamento exprés. Disfrutaremos de todos los favoritos de Forest Camp de jueves a sábado.",
+    fire_skills:
+      "Aventuras a tope en este campamento exprés. Disfrutaremos de todos los favoritos de Forest Camp de jueves a sábado.",
     bushcraft: "",
     modules_label: "Semana este invierno",
     sports_heading:
       'SUMMER CAMP<br><span style="color:#DC850A;">del 29 de junio al 7 de agosto</span>',
-    altitude: "Estamos de vuelta con nuestro programa completo, 3 módulos educativos completos para nuestros forest campers.",
+    altitude:
+      "Estamos de vuelta con nuestro programa completo, 3 módulos educativos completos para nuestros forest campers.",
     navigation: "",
     themes_label: "Semanas en verano 2026",
     and_more: "",
@@ -610,7 +613,7 @@ IG: @scapeforestcamp`,
     bday_included_item_3: "Decoración de cumpleaños",
     bday_included_item_4: "Comida y bebida",
     bday_included_item_5: "Tu pastel de sabor favorito",
-    bday_included_item_6: "Aventuras en Scape Park",        
+    bday_included_item_6: "Aventuras en Scape Park",
 
     // Coming Soon Section
     tba_title: "Próximamente",
@@ -720,63 +723,68 @@ IG: @scapeforestcamp`,
     footer_copy: "2026 © ForestCamp - Todos los derechos reservados.",
     // <-------- PÁGINA DEL CAMPAMENTO DE VERANO -------->
 
-summer_section_title: "El Campamento de Verano",
+    summer_section_title: "El Campamento de Verano",
 
-summer_banner_title: "Información",
+    summer_banner_title: "Información",
 
-summer_banner_p1: "Diseñado para niños de 7 a 12 años, este campamento lleno de aventuras, de 9 AM a 4 PM, ofrece la combinación perfecta de diversión y aprendizaje al aire libre. Los participantes disfrutarán de emocionantes deportes de montaña, cálidas interacciones con animales y actividades inmersivas basadas en la naturaleza en Scape Park.",
+    summer_banner_p1:
+      "Diseñado para niños de 7 a 12 años, este campamento lleno de aventuras, de 9 AM a 4 PM, ofrece la combinación perfecta de diversión y aprendizaje al aire libre. Los participantes disfrutarán de emocionantes deportes de montaña, cálidas interacciones con animales y actividades inmersivas basadas en la naturaleza en Scape Park.",
 
-summer_banner_p2: "Cada momento está lleno de emoción y descubrimiento, fomentando una conexión profunda con el medio ambiente mientras se celebra la magia de la temporada. ¡Regala a tu hijo la experiencia de explorar, aire fresco y recuerdos inolvidables — reserva un lugar hoy mismo!",
+    summer_banner_p2:
+      "Cada momento está lleno de emoción y descubrimiento, fomentando una conexión profunda con el medio ambiente mientras se celebra la magia de la temporada. ¡Regala a tu hijo la experiencia de explorar, aire fresco y recuerdos inolvidables — reserva un lugar hoy mismo!",
 
-summer_learn_title: "¿Qué aprenderán tus hijos este verano?",
+    summer_learn_title: "¿Qué aprenderán tus hijos este verano?",
 
-summer_learn_list_1: "Semanas",
-summer_learn_list_2: "Módulos",
-summer_learn_list_3: "Temas",
+    summer_learn_list_1: "Semanas",
+    summer_learn_list_2: "Módulos",
+    summer_learn_list_3: "Temas",
 
-summer_modulo_title_1: "Módulo 1: Habilidades en la Naturaleza — 22 de junio al 3 de julio",
-summer_modulo_title_2: "Módulo 2: Habilidades de Emergencia — 6 de julio al 17 de julio",
-summer_modulo_title_3: "Módulo 3: Habilidades de Supervivencia — 20 de julio al 31 de julio",
-summer_modulo_title_4: "Módulo 4: Habilidades de Navegación — 3 de agosto al 14 de agosto",
+    summer_modulo_title_1:
+      "Módulo 1: Habilidades en la Naturaleza — 22 de junio al 3 de julio",
+    summer_modulo_title_2:
+      "Módulo 2: Habilidades de Emergencia — 6 de julio al 17 de julio",
+    summer_modulo_title_3:
+      "Módulo 3: Habilidades de Supervivencia — 20 de julio al 31 de julio",
+    summer_modulo_title_4:
+      "Módulo 4: Habilidades de Navegación — 3 de agosto al 14 de agosto",
 
-summer_module_list_1: "Planificación de Preparación Personal",
-summer_module_list_11: "Moviéndose en la Naturaleza",
+    summer_module_list_1: "Planificación de Preparación Personal",
+    summer_module_list_11: "Moviéndose en la Naturaleza",
 
-summer_module_list_2: "Armar tu Botiquín de Primeros Auxilios y Mochila de Emergencia",
-summer_module_list_22: "Estrategias de Búsqueda, Rescate y Evacuación",
+    summer_module_list_2:
+      "Armar tu Botiquín de Primeros Auxilios y Mochila de Emergencia",
+    summer_module_list_22: "Estrategias de Búsqueda, Rescate y Evacuación",
 
-summer_module_list_3: "Cuerdas, Refugio y Encendido de Fuego",
-summer_module_list_33: "Dominar la Cocina Primitiva en la Naturaleza",
+    summer_module_list_3: "Cuerdas, Refugio y Encendido de Fuego",
+    summer_module_list_33: "Dominar la Cocina Primitiva en la Naturaleza",
 
-summer_module_list_4: "El Arte Perdido de Leer las Señales de la Naturaleza",
-summer_module_list_44: "Guía Remota y Planificación de Rutas",
+    summer_module_list_4:
+      "El Arte Perdido de Leer las Señales de la Naturaleza",
+    summer_module_list_44: "Guía Remota y Planificación de Rutas",
 
-summer_last_btn: "¡Comienza la Aventura!",
+    summer_last_btn: "¡Comienza la Aventura!",
   },
+};
 
-  
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("langToggleBtn");
+  if (!btn) return;
 
-  };
-  
-  document.addEventListener('DOMContentLoaded', () => {
-    const btn = document.getElementById('langToggleBtn');
-    if (!btn) return;
-  
-    let lang = localStorage.getItem('lang') || 'en';
-  
-    function apply() {
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.dataset.i18n;
-        el.innerHTML = translations[lang][key] || '';
-      });
-      btn.innerText = lang === 'en' ? '🇩🇴ES' : '🇺🇸EN';
-    }
-  
-    apply();
-  
-    btn.addEventListener('click', () => {
-      lang = lang === 'en' ? 'es' : 'en';
-      localStorage.setItem('lang', lang);
-      apply();
+  let lang = localStorage.getItem("lang") || "en";
+
+  function apply() {
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      const key = el.dataset.i18n;
+      el.innerHTML = translations[lang][key] || "";
     });
+    btn.innerText = lang === "en" ? "🇩🇴ES" : "🇺🇸EN";
+  }
+
+  apply();
+
+  btn.addEventListener("click", () => {
+    lang = lang === "en" ? "es" : "en";
+    localStorage.setItem("lang", lang);
+    apply();
   });
+});
