@@ -1100,9 +1100,11 @@ a{
 .summer_page_for_bg img.full_bg {
 	position: absolute;
 	left: 0;
-	top: 20%;
+	/* top: 20%; */
 	width: 100%;
-    z-index: -1;
+	z-index: -1;
+	/* height: 100%; */
+	bottom: 100px !important;
 }
 .for_connect_line{
     position: relative;
