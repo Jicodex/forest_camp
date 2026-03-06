@@ -1,9 +1,10 @@
 /* ========== 250px to 575.99px  */
 @media (min-width: 250px) and (max-width: 575.99px) { 
 .program_last_section_bg{
-top:30%;
+top:30% !important ;
 width:100% !important;
 height:50% !important;
+object-fit: cover !important;
 }
     .my_map_contact .sub_text h3 {
         color: #DC850A;
